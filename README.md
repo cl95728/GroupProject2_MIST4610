@@ -2,10 +2,10 @@
 Team Name
 
 ## Team Members
-### Caleb Rivers (https://github.com/CRivers2805/MIST_4610_21482_G5_CMR_2)
-### Catherine Lusick (https://github.com/cl95728/GroupProject2_MIST4610)
-### Emmy Nguyen (https://github.com/emmyn1/MIST-4610-Group5-Project2)
-### Diyaa Patel (https://github.com/Diyaa-P13/MIST4610-Group5-Project2.git)
+Caleb Rivers (https://github.com/CRivers2805/MIST_4610_21482_G5_CMR_2)
+Catherine Lusick (https://github.com/cl95728/GroupProject2_MIST4610)
+Emmy Nguyen (https://github.com/emmyn1/MIST-4610-Group5-Project2)
+Diyaa Patel (https://github.com/Diyaa-P13/MIST4610-Group5-Project2.git)
 
 
 ## Description of Dataset
@@ -49,5 +49,6 @@ The timeline graph displays how the estimated deaths either increased or decreas
 The manipulations made to our chosen data set were extensive, mostly due to the dataset not even being in first normal form, which made efficiently visualizing the data difficult before making the proper adjustments. Some of the issues encountered in the data include having multiple values in one cell, having the same value in two different cells, having multiple, non correlated “primary keys” that were repeated numerous times, attributes that had the same value in every cell, attributes that were ambiguous, and non primary keys that were referencing other non-primary keys.
 
 After both deleting and adding columns, we had reduced the size of the data by three rows, by deleting columns that were either ambiguous, redundant, or having the same value in every cell, allowing us to streamline our visualization process. Additionally, adding columns using the Text to Columns tool assisted in separating the variables that were in the same column, some of which were key to our visualizations. Since we were not necessarily querying the data, we opted to not create separate sheets to separate all of the “primary keys” and just rearrange the columns so that they could be easily identified and referenced if necessary
-Tableau Packaged Workbook
+## Tableau Packaged Workbook
+The workbook is attached as a separate file in the GitHub repository.
 
