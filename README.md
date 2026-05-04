@@ -1,19 +1,21 @@
 # GroupProject2_MIST4610
 Team Name
 
-Team Members
+## Team Members
 Caleb Rivers (https://github.com/CRivers2805/MIST_4610_21482_G5_CMR_2)
 Catherine Lusick
 Emmy Nguyen (https://github.com/emmyn1/MIST-4610-Group5-Project2)
 Diyaa Patel (https://github.com/Diyaa-P13/MIST4610-Group5-Project2.git)
 
 
-Description of Dataset
+## Description of Dataset
 Our dataset focuses on drug overdose rates in the United States from 2000 to 2018. The data was obtained from https://catalog.data.gov/ and includes a variety of dimensions that allow for detailed analysis of trends related to the opioid epidemic. The dataset contains variables such as the year, which is a whole number, data type, along with demographic categories including gender, race, and age group, which are all stored as string data types. It also includes information on the type of drug involved in each case, such as heroin or methadone, which is another categorical variable. A key measure in the dataset is the age-adjusted overdose death rate, which is a decimal data type and allows for accurate comparisons across different populations. These dimensions work together to show how overdose rates change over time and how different groups are affected. Overall, the dataset includes a mix of categorical and numeral variables that provide enough depth and variation to analyze patterns, identify trends, and better understand the impact of drug overdoses in the United States. 
-Question 1
+
+## Question 1
 How did age-adjusted methadone overdose death rates per 100,000 population compare between males and females from 2000 to 2015?
 
 This question was chosen because the biological and social differences between males and females can significantly influence how the body processes opioids like methadone. It also shows how likely each group is to seek treatment. By isolating genders as a variable, we are able to determine whether intervention efforts should be tailored differently depending on gender.
+<img width="1290" height="718" alt="image" src="https://github.com/user-attachments/assets/f2b3f54f-b2e1-4177-bdd3-9218bd54ffad" />
 
 
 
@@ -22,7 +24,8 @@ The timeline graph displays how the estimated deaths have both increased and dec
 As seen in both visualizations, males consistently recorded higher death rates throughout the entire fifteen-year period, with the most significant difference occurring around 2006-2007. The Gantt bar chart makes this gap especially clear, as the male bars exceed the female bars in nearly every observed year, leaving little ambiguity about which group bears more burden. Notably, both groups follow a similar rise and fall pattern, suggesting that the same external factors are influencing both genders, yet males remain far more severely impacted at every point in time. 
 
 The disparity is largely tied to the fact that males are statistically more likely to engage in higher-risk substance use behaviors and are less likely to seek medical intervention early. Additionally, males tend to be prescribed higher opioid doses on average, increasing the possibility of overdosing. This is supported by the National Institute on Drug Abuse, which confirms that men are more likely than women to use illicit drugs and die from overdoses. The sharp peak around 2006-2007 also aligns with the period of relaxed regulations on methadone distribution, where 25% annual increase in distribution disproportionately impacted males, given their high usage rates. As those regulations became stricter after 2006, male overdose deaths followed the same downward trend, showing a clear connection between policy changes and death rates.  
-Question 2
+
+## Question 2
 How did age-adjusted Methadone overdose death rates compare between non-Hispanic Black and Hispanic/Latino populations from 2000 to 2015, and which group saw the more significant trend shift during this period?
 
 This question was posed in order to observe what impact that race, and, in turn, socio-economic situation, has on methadone overdose deaths. By analyzing the results of these queries, we can determine which ethnic group experiences the most risk for overdose death, and which demographics should begin to exercise more caution when dealing with the opioid. 
@@ -36,13 +39,12 @@ Additionally as observed in the heatmap, not only are black overdoses consistent
 It should be noted that other external studies are consistent with our findings. The National Library of Medicine engaged in a similar analysis, and reached many of the same conclusions. It not only states that “Opioid overdose death rates have skyrocketed in the past 20 years in all racial and ethnic groups, with the greatest increase among Black Americans in the past 10 years, said Magdelena Cedrá” but also “looking specifically at access to methadone and buprenorphine, Cerdá noted additional examples of racial patterning, with racially minoritized individuals having lower access to buprenorphine,” a drug distributed in order to counter the effects of Opioid Use Disorder. In regards to buprenorphine, “A study in New York City by Helena Hansen and colleagues showed that between 2004 and 2013, buprenorphine treatment increased across all areas, with a significantly higher increase in areas with the highest income and lowest percentage of Black, Hispanic, and lower income residents. By contrast, methadone use was concentrated in areas of high poverty and a higher concentration of Black and Hispanic residents,” which aligns with the extreme death tolls observed in the two demographics. Not only is there lower access to buprenorphine in these areas, but there is also an larger availability of the opioid in these areas, with the study highlighting that “Methadone was more likely to be available in counties with highly segregated Black populations.”
 
 The causes for an increased availability of methadone are outlined in other reports, such as one from the Federal Register that states “Federal opioid treatment standards were significantly reduced in scope to allow more flexibility and greater medical judgment in treatment. Certain restrictions on dosage forms were eliminated so that OTPs may now use solid dosage forms. Under the previous rules, OTPs were limited to the use of liquid dosage forms. Several reporting requirements and reporting forms were eliminated, including the requirements for physician notifications and the requirement that programs obtain FDA approval prior to dosing a patient above 100 milligrams. The proposal included a more flexible schedule for medications dispensed to patients for unsupervised use, including provisions that permit up to a 31-day supply. Under the current regulations, patients are limited to a maximum 6-day supply of medication.” As such, methadone distribution increased by 25% on average annually from 2002-2006, according to the CDC, which is in line with the tremendous increases of deaths observed in the black and Hispanic communities during that time period. However, the loosened restrictions became tighter once again. Dosage intervals expanded, increased warnings were given for using methadone for pain, and the largest methadone pills became more limited in their distribution (CDC). As such, the amount of methadone distributed decreased by around 3% annually on average form 2006-2016, which is also directly proportional to the amount of deaths observed in the black and hispanic communities.
-
+<img width="1450" height="704" alt="image" src="https://github.com/user-attachments/assets/87e75ecb-6dfc-4803-b372-08cdb24a1f19" />
 
 
 The timeline graph displays how the estimated deaths either increased or decreased over the fifteen year time period, with colors separating the variables. The bar chart displays the extent that the deaths had increased compared to their initial levels in 2000.
 
-The 
-Manipulations Applied to the Data Set for Analysis
+## The Manipulations Applied to the Data Set for Analysis
 
 The manipulations made to our chosen data set were extensive, mostly due to the dataset not even being in first normal form, which made efficiently visualizing the data difficult before making the proper adjustments. Some of the issues encountered in the data include having multiple values in one cell, having the same value in two different cells, having multiple, non correlated “primary keys” that were repeated numerous times, attributes that had the same value in every cell, attributes that were ambiguous, and non primary keys that were referencing other non-primary keys.
 
